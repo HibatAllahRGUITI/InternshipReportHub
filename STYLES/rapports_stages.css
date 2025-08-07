@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #31363F;
+    background-color: inherit;
+}
+
+.navbar {
+      overflow: hidden;
+      background-color: #EEEEEE;
+      display: flex;
+      flex-basis: auto;
+      justify-content: space-between;
+      padding: 10px 20px 10px 20px;
+      align-items: center;
+}
+    
+    /* Style the logo image */
+    .navbar #logo {
+        top: 10px;
+        width: 120px; /* Adjust height as needed */
+        background-color: #EEEEEE;
+}
+
+    .navbar #exit{
+       width:  30px;
+       background-color: #EEEEEE;
+    
+    }
+
+    /* Style the navbar links */
+    .nav-links a {
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      padding: 7px 10px;
+      background-color: #EEEEEE;
+    }
+    
+    
+    /* Center the text in the navbar */
+    .navbar .center-text {
+      color: #31363F;
+      font-weight: bold;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      background-color: #EEEEEE;
+      margin-left: -70px;
+    }
+
+    .main{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .main h1{
+        margin-top: 20px;
+    }
+    .main h4{
+        margin-bottom: 20px;
+    }
+
+    .main h1, .main h4{
+        color: #76ABAE;
+        line-height:    70px;
+    }
+
+
+    .reports-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 80%;
+}
+
+.reports-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.reports-table th,
+.reports-table td {
+    padding: 12px 15px;
+}
+.reports-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.reports-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.reports-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.reports-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+#vue{
+     background-color: #009879;
+     padding: 3px 8px 3px 8px;
+     border-radius: 8px;
+     border-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+#vue a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+#download {
+    background-color: #5c5c5ca7;
+    padding: 3px 8px 3px 8px;
+    border-radius: 8px;
+    border-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#download a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+form{
+    border-radius: 20px;
+    background-color: #eeeeee;
+}
+input{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    font-size: 1em; 
+    border-radius: 50%;
+    border-width: 10px;
+}
+
+
+#submit{
+    border-width: 0px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#supprimer{
+    background-color: #d62121;
+    padding: 3px 8px 3px 8px;
+    border-radius: 8px;
+    border-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+#supprimer a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
+
+    
+

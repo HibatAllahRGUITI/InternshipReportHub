@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #31363F;
+    background-color: inherit;
+}
+
+.navbar {
+      overflow: hidden;
+      background-color: #EEEEEE;
+      display: flex;
+      flex-basis: auto;
+      justify-content: space-between;
+      padding: 10px 20px 10px 20px;
+      align-items: center;
+    }
+    
+    /* Style the logo image */
+    .navbar #logo {
+        top: 10px;
+        width: 120px; /* Adjust height as needed */
+        background-color: #EEEEEE;
+    }
+
+    .navbar #exit{
+       width:  30px;
+       background-color: #EEEEEE;
+    
+    }
+
+    /* Style the navbar links */
+    .nav-links a {
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      padding: 7px 10px;
+      background-color: #EEEEEE;
+    }
+    
+    
+    /* Center the text in the navbar */
+    .navbar .center-text {
+      color: #31363F;
+      font-weight: bold;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      background-color: #EEEEEE;
+      margin-left: -70px;
+    }
+
+    .main{
+      margin-top: 20px;
+      text-align: center;
+  }
+
+  .main h1{
+      margin-top: 20px;
+      color: #76ABAE;
+      line-height:    35px;
+  }
+.wrapper{
+  width: 100%;
+  position: fixed;
+  top: 60%;
+  right: -83%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.wrapper ul li {
+  text-align: left;
+  line-height: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  flex-wrap: nowrap;
+}
+
+.wrapper ul li p{
+  width:  550px;
+  background-color: #d4d2d2;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: #ffffff;
+}
+
+.wrapper ul li label{
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: block;
+  color: #31363F;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+  .wrapper{
+    width: 100%;
+    top: 70%;
+    right: -70%;
+
+  }
+
+  .wrapper ul li p{
+    width:  420px;
+  }
+}
