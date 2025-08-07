@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+
+* {
+box-sizing: border-box;
+}
+
+body {
+background: #E6E6FA;
+font-family: "Poppins", sans-serif;
+min-height: 100vh;
+}
+
+.container {
+background-color: #fff;
+border: 3px solid #660033;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 60px;
+text-align: center;
+width: 600px;
+max-width: 100%;
+margin-top: 70px;
+margin-left: 450px;
+}
+
+
+.container p {
+color: rgb(136, 136, 136);
+letter-spacing: 0.4px;
+}
+
+.container form {
+width: 100%;
+}
+
+.container .input-area {
+position: relative;
+margin: 10px 0;
+height: 44px;
+width: 100%;
+}
+
+.container .h-80 {
+height: 80px;
+}
+
+.container input, .container textarea {
+position: absolute;
+display: block;
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+padding: 12px;
+height: 100%;
+width: 100%;
+border: 1px solid #999;
+border-radius: 4px;
+outline: none;
+resize: none;
+}
+
+.container .sendbtn {
+display: block;
+width: 100%;
+background: #660033;
+color: #fff;
+font-size: 18px;
+padding: 11px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.container .sendbtn:hover {
+background-color: #993366;
+}
+
+@media screen and (max-width: 1000px) {
+.container {
+padding: 20px 30px;
+margin-left: 80px;
+}
+}
+
+#role , #filiere{
+    position: absolute;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+}
