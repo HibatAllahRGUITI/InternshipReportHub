@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="STYLES/index.css">
 <?php
-include 'PARTIALS\header.php';
+include 'PARTIALS/header.php';
 ?>
     
     <div class="container">
